@@ -1,0 +1,112 @@
+body{
+  background-image: url('');
+  background-size: cover;
+  
+  
+  
+  height: 100vh;
+  padding: px;;
+  margin:0;
+}
+
+
+h2{
+  color:white 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  border-style: none none solid none ;
+  border-color: #9f090a;
+  border-width: 2px;
+  padding: 10px;
+  background-image: url('../images/gif\ \(2\).gif');
+  background-size:cover 
+}
+
+.menu {
+  width: 20%;
+  text-decoration-color: #9f090a;
+
+}
+
+.cart{
+  color: #9f090a ;
+
+}
+
+
+
+.animatedThing {
+  animation:  10000ms;
+}
+
+@keyframes pop-in-left {
+  0% {
+    m: -200px;
+  }
+
+  50% {
+    margin-left: 100px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.logo {
+  width: 20%;  
+  text-align: center;
+  
+  
+
+}
+
+.cart {
+  width: 20%;
+  text-align: right;
+}
+
+.Thankyou{
+  text-align: center;
+}
+
+.contact{
+  justify-content: center;
+  padding: 10;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.product {
+  border: 2px solid white;
+  background-color: white;
+  
+}
+
+
+
+.cool {
+  color: #9f090a;
+  text-decoration: none;
+}
+
+.buttons button { 
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 8px;
+  
+  
+ 
+}
