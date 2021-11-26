@@ -9,6 +9,14 @@ body{
   margin:0;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 a {
   color: white;
 }
@@ -24,10 +32,9 @@ a {
 }
 
 .contact {
-  margin-top: auto;
-  width: auto;
+  
   justify-content: center;
-  background-color: white;
+  background-color: #9f090a;
   border-style: solid ;
   border-color: #9f090a;
   border-width: 2px;
