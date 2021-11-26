@@ -92,8 +92,13 @@ header {
   background-color: white;
   
 }
-
-
+a{
+  color: black;
+  text-decoration: none;
+}
+select{
+  border: none;
+}
 
 .cool {
   color: #9f090a;
