@@ -1,87 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style2.css" />
-
-</head>
-<body>
+    <script defer src="Products.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    
+  </head>
+  <body>
     <header>
-        <div class="menu">
-            <a class="cool" href="Products.html">Products</a>
-            <a class="cool" href="Contact.html">Contact</a>
-        
-        </div>
-        <div class="logo">
-            <a href="index.html"> 
-                <img src="images/Logo.webp" alt="logo" height="75" width="212">
-            </a>
-        </div>
-        <div class="cart">0 Items</div> 
+      <div class="menu">
+        <a class="cool" href="Products.html">Products</a>
+        <a class="cool" href="Contact.html">Contact</a>
+      </div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Logo.webp" alt="logo" height="75" width="212" />
+        </a>
+      </div>
+      <div class="cart">0 Items</div>
     </header>
     <div class="products">
-        <div class="product">
-          
-            <img src="images/skelecops mockup unkown t shirt.webp" alt="" width="450" >
-          
-         
+      <div class="product">
+        <div class="img-zoom-container">
+        <a class="hidden" id="back">
+          <img src="images\skelecops front t shirt.png" alt="" width="450" />
+        </a>
+        <a id="front">
+          <img
+            src="images/skelecops mockup unkown t shirt.webp"
+            alt=""
+            width="450"
+            />
+          </a>
         </div>
-        <div class="text">
-
-          <h2>
-            <a href="product.html">
-              Skelecops
-            </a>
-          </h2>
-          
-            MADE IN SWEDEN
-
-            <br> 100% COTTON
-            <br> 215GSM 21 SINGLES
-            <br>
-            <br>JUMBO DTG BACKPRINT
-            <br>SCREEN PRINTED FRONT LOGO
+      <div class="text">
+        <div id="myresult" class="img-zoom-result"></div>
+          <img
+            id="myimage"
+            src="images/skelecops mockup unkown t shirt.webp"
+            width="450"
             
-            
-            
-            <br> 
-            <br>  GARMENT DYED VINTAGE WASH
-            <br>  CUSTOM-MILLED FABRIC, 99% PRESHRUNK
-            <br>  SOFT, SMOOTH, PREMIUM HEAVY FEEL
-            <br>
-            <br>  THICK 1” COLLAR USING 1*1 RIB
-            <br>  
-            <br>  6-8 WEEKS SHIPPING AND PRODUCTION
-            <br>  
-            <br>  ALL PURCHASES  ARE FINAL "NO REFUNDS"
-
-
-            
-          <br>
-          <br>
-          <br>
-          
-          <select id="size" name="size" placeholder="size">
-          
-            <option value="size">Size</option>
-            <option value="size">S</option>
-            <option value="size">M</option>
-            <option value="size">L</option>
-            <option value="size">XL</option>
-          </select>
-          <br>
-          <br>
-          <br>
-          <br>
-          <div class="buttons">
-
-            <button>Add to cart</button>
-          </div>
+            alt="shirt"
+          />
         </div>
-      </div>    
-      
-</body>
+
+
+        <h2>
+          <a href="product.html"> Skelecops </a>
+        </h2>
+
+        MADE IN SWEDEN
+
+        <br />
+        100% COTTON <br />
+        215GSM 21 SINGLES
+        <br />
+        <br />JUMBO DTG BACKPRINT <br />SCREEN PRINTED FRONT LOGO
+
+        <br />
+        <br />
+        GARMENT DYED VINTAGE WASH <br />
+        CUSTOM-MILLED FABRIC, 99% PRESHRUNK <br />
+        SOFT, SMOOTH, PREMIUM HEAVY FEEL
+        <br />
+        <br />
+        THICK 1” COLLAR USING 1*1 RIB
+        <br />
+        <br />
+        6-8 WEEKS SHIPPING AND PRODUCTION
+        <br />
+        <br />
+        ALL PURCHASES ARE FINAL "NO REFUNDS"
+
+        <br />
+        <br />
+        <br />
+
+        <select id="size" name="size" placeholder="size">
+          <option value="size">Size</option>
+          <option value="size">S</option>
+          <option value="size">M</option>
+          <option value="size">L</option>
+          <option value="size">XL</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="buttons">
+          <button>Add to cart</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
 </html>

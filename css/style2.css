@@ -1,17 +1,44 @@
-body{
-  background-image: url('');
+.front {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-image: url("");
   background-size: cover;
-  
-  
-  
+
   height: 100vh;
-  padding: px;;
-  margin:0;
+  padding: px;
+  margin: 0;
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
 }
 
 
-h2{
-  color:white 
+h2 {
+  color: white;
 }
 header {
   display: flex;
@@ -19,29 +46,25 @@ header {
   padding: 0px;
   margin: 0px;
   background-color: black;
-  border-style: none none solid none ;
+  border-style: none none solid none;
   border-color: #9f090a;
   border-width: 2px;
   padding: 10px;
-  background-image: url('../images/gif\ \(2\).gif');
-  background-size:cover 
+  background-image: url("../images/gif\ \(2\).gif");
+  background-size: cover;
 }
 
 .menu {
   width: 20%;
   text-decoration-color: #9f090a;
-
 }
 
-.cart{
-  color: #9f090a ;
-
+.cart {
+  color: #9f090a;
 }
-
-
 
 .animatedThing {
-  animation:  10000ms;
+  animation: 10000ms;
 }
 
 @keyframes pop-in-left {
@@ -59,11 +82,8 @@ header {
 }
 
 .logo {
-  width: 20%;  
+  width: 20%;
   text-align: center;
-  
-  
-
 }
 
 .cart {
@@ -71,11 +91,11 @@ header {
   text-align: right;
 }
 
-.Thankyou{
+.Thankyou {
   text-align: center;
 }
 
-.contact{
+.contact {
   justify-content: center;
   padding: 10;
 }
@@ -90,13 +110,12 @@ header {
 .product {
   border: 2px solid white;
   background-color: white;
-  
 }
-a{
+a {
   color: black;
   text-decoration: none;
 }
-select{
+select {
   border: none;
 }
 
@@ -105,13 +124,10 @@ select{
   text-decoration: none;
 }
 
-.buttons button { 
+.buttons button {
   border: none;
   background-color: black;
   color: white;
   border-radius: 10px;
   padding: 12px 8px;
-  
-  
- 
 }
