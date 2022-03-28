@@ -1,14 +1,4 @@
-let back = document.querySelector("#back");
-let front = document.querySelector("#front");
 
-back.addEventListener("click", flipShirt);
-front.addEventListener("click", flipShirt);
-
-function flipShirt () 
-{
-    back.classList.toggle("hidden");
-    front.classList.toggle("hidden");
-}
 
 function imageZoom(imgID, resultID) {
     var img, lens, result, cx, cy;
